@@ -2316,7 +2316,7 @@ function prepare_body($item) {
  * $cmd and string args are surrounded with ""
  */
 
-if(! function_exists('run_proc')) {
+if(! function_exists('proc_run')) {
 function proc_run($cmd){
 	$a = get_app();
 	$args = func_get_args();
